@@ -64,3 +64,114 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+.container {
+	width: 878px;
+	margin: auto;
+	/* border: 1px solid red; */
+}
+
+.navigation {
+	/* border: 1px solid blue; */
+	display: inline-block;
+	text-align: center;
+	margin-top: 30px;
+	/* Top Right Bottom Left */
+}
+
+.navigation a{
+	text-decoration: none;
+	margin: 0 20px;
+	color: gray;
+}
+
+/* Image */
+
+.great-logo{
+	
+	margin-left: 110px;
+
+}
+
+.cta {
+	display: inline-block;
+	
+
+}
+
+.cta .cta-text {
+	width: 50%;
+	font-size: 80px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin: 130px 0px;
+	padding: 0px 60px;
+}
+
+/* Button */
+
+.cta .cta-text button{
+
+	background: white;
+	vertical-align: top;
+	margin-top: 5px;
+	padding: 10px 50px;
+	font-size: 18px;
+	border: 1px solid black;
+}
+
+.cta .cta-text button:hover {
+	background: black;
+	color: white;
+}
+
+/* Image */
+
+.cta .circle {
+	padding: 80px 0px 0px 41.3px;
+
+}
+
+/* Top Text */
+
+.top-content {
+	display: inline-block;
+	border-top: 1px solid black;
+}
+
+.top-content .text-container{
+	display: inline-block;
+	width: 49.8%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* Bottom Text */
+
+.bottom-content {
+	display: inline-block;
+}
+
+.bottom-content .text-container{
+	display: inline-block;
+	width: 33%;
+	padding-top: 20px;
+	line-height: 20px;
+	padding-bottom: 60px;
+}
+
+
+
+/* Contact and Footer */
+
+.contact {
+	padding: 25px 0px 0px 0px;
+	border-top: 1px solid black;
+}
+
+footer {
+	text-align: center;
+	padding: 35px 0px
+}
